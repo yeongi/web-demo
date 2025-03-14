@@ -13,7 +13,7 @@ export const ProfileListPage = () => {
           description:
             "안녕하세요 간단하게 자기소개 할게요. 저는 28세 남자 입니다. 취미는 기타를 연주하고 있어요.",
         }}
-        isMyProfile={true}
+        isMyProfile={myName === "장의영"}
       />
       <ProfileCard
         profile={{
