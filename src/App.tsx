@@ -1,9 +1,7 @@
+import RootLayout from "./root";
+
 function App() {
-  return (
-    <>
-      <h1>hello world</h1>
-    </>
-  );
+  return <RootLayout />;
 }
 
 export default App;
